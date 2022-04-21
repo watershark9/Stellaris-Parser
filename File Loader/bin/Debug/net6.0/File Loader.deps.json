@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "File Loader/1.0.0": {
+        "dependencies": {
+          "Parser": "1.0.0"
+        },
+        "runtime": {
+          "File Loader.dll": {}
+        }
+      },
+      "Parser/1.0.0": {
+        "runtime": {
+          "Parser.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "File Loader/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Parser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

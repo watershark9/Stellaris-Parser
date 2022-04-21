@@ -1,0 +1,18 @@
+C:\Users\alberto.diaz\Development\Stellaris Parser System\File Loader\bin\Debug\net6.0\File Loader.exe
+C:\Users\alberto.diaz\Development\Stellaris Parser System\File Loader\bin\Debug\net6.0\File Loader.deps.json
+C:\Users\alberto.diaz\Development\Stellaris Parser System\File Loader\bin\Debug\net6.0\File Loader.runtimeconfig.json
+C:\Users\alberto.diaz\Development\Stellaris Parser System\File Loader\bin\Debug\net6.0\File Loader.dll
+C:\Users\alberto.diaz\Development\Stellaris Parser System\File Loader\bin\Debug\net6.0\File Loader.pdb
+C:\Users\alberto.diaz\Development\Stellaris Parser System\File Loader\bin\Debug\net6.0\Parser.dll
+C:\Users\alberto.diaz\Development\Stellaris Parser System\File Loader\bin\Debug\net6.0\Parser.pdb
+C:\Users\alberto.diaz\Development\Stellaris Parser System\File Loader\obj\Debug\net6.0\File Loader.csproj.AssemblyReference.cache
+C:\Users\alberto.diaz\Development\Stellaris Parser System\File Loader\obj\Debug\net6.0\File Loader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alberto.diaz\Development\Stellaris Parser System\File Loader\obj\Debug\net6.0\File Loader.AssemblyInfoInputs.cache
+C:\Users\alberto.diaz\Development\Stellaris Parser System\File Loader\obj\Debug\net6.0\File Loader.AssemblyInfo.cs
+C:\Users\alberto.diaz\Development\Stellaris Parser System\File Loader\obj\Debug\net6.0\File Loader.csproj.CoreCompileInputs.cache
+C:\Users\alberto.diaz\Development\Stellaris Parser System\File Loader\obj\Debug\net6.0\File Loader.csproj.CopyComplete
+C:\Users\alberto.diaz\Development\Stellaris Parser System\File Loader\obj\Debug\net6.0\File Loader.dll
+C:\Users\alberto.diaz\Development\Stellaris Parser System\File Loader\obj\Debug\net6.0\refint\File Loader.dll
+C:\Users\alberto.diaz\Development\Stellaris Parser System\File Loader\obj\Debug\net6.0\File Loader.pdb
+C:\Users\alberto.diaz\Development\Stellaris Parser System\File Loader\obj\Debug\net6.0\File Loader.genruntimeconfig.cache
+C:\Users\alberto.diaz\Development\Stellaris Parser System\File Loader\obj\Debug\net6.0\ref\File Loader.dll

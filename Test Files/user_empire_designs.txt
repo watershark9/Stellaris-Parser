@@ -1,0 +1,1411 @@
+"Quillian Bureaucracy"
+={
+	key="Quillian Bureaucracy"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="humanoid_04"
+		name="Quillian"
+		plural="Quillians"
+		adjective="Quillian"
+		name_list="HUM2"
+		trait="trait_extremely_adaptive"
+		trait="trait_sedentary"
+		trait="trait_wasteful"
+	}
+	name="Quillian Bureaucracy"
+	adjective="Bureaucratic"
+	authority="auth_oligarchic"
+	government="gov_irenic_bureaucracy"
+	planet_name="Central Office"
+	planet_class="pc_continental"
+	system_name="Headquarters"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_13.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"black"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Perak Fen"
+		portrait="humanoid_04_female_01"
+		texture=1
+		hair=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_migrating_flock_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_pacifist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_mechanists"
+		"civic_efficient_bureaucracy"
+	}
+}
+"Quillbot Pacifists"
+={
+	key="Quillbot Pacifists"
+	ship_prefix="QBS"
+	species={
+		class="MACHINE"
+		portrait="sd_mol_robot"
+		name="Quillbot"
+		plural="Quillbots"
+		adjective="Quillbot"
+		name_list="HIVE"
+		trait="trait_machine_unit"
+		trait="trait_robot_uncanny"
+		trait="trait_robot_enhanced_memory"
+		trait="trait_robot_learning_algorithms"
+		trait="trait_robot_bulky"
+	}
+	name="Quillbot Pacifists"
+	adjective="Quillbot"
+	authority="auth_machine_intelligence"
+	government="gov_machine_terminator"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_20.dds"
+		}
+		background={
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors={
+			"dark_blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Synaptic Nexus"
+		portrait="sd_mol_robot"
+		texture=2
+		hair=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_hegemonic_imperialists_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_terminator"
+		"civic_machine_predictive_analysis"
+	}
+}
+"Sacred Order of Kuda"
+={
+	key="Sacred Order of Kuda"
+	ship_prefix="ISS"
+	species={
+		class="MAM"
+		portrait="mam14"
+		name="Kudan"
+		plural="Kudans"
+		adjective="Kudan"
+		name_list="HUM4"
+		trait="trait_intelligent"
+		trait="trait_decadent"
+		trait="trait_quick_learners"
+	}
+	secondary_species={
+		class="HUM"
+		portrait="humanoid_hp_11"
+		name="Dwarf"
+		plural="Dwarves"
+		adjective="Dwarven"
+		name_list="HUM2"
+		trait="trait_syncretic_proles"
+		trait="trait_strong"
+		trait="trait_communal"
+		trait="trait_slow_learners"
+	}
+	name="Sacred Order of Kuda"
+	adjective="Kudan"
+	authority="auth_imperial"
+	government="gov_theocratic_monarchy"
+	planet_name="Kuda Prime"
+	planet_class="pc_savannah"
+	system_name="Kuda's Throne"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_12.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"pink"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Navya Venktaesan"
+		portrait="mam14"
+		texture=1
+		hair=0
+		clothes=4
+		ruler_title_female="Divine"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_syncretic_evolution"
+		"civic_mining_guilds"
+	}
+}
+"Serene Quillzard Concordat"
+={
+	key="Serene Quillzard Concordat"
+	ship_prefix="ISS"
+	species={
+		class="REP"
+		portrait="rep16"
+		name="Quillzard"
+		plural="Quillzards"
+		adjective="Quillzard"
+		name_list="REP1"
+		trait="trait_charismatic"
+		trait="trait_communal"
+		trait="trait_slow_breeders"
+		trait="trait_natural_sociologists"
+	}
+	name="Serene Quillzard Concordat"
+	adjective="Quillzard"
+	authority="auth_democratic"
+	government="gov_moral_democracy"
+	planet_name="Rothak"
+	planet_class="pc_arid"
+	system_name="Vsem-Klack"
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_3.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"indigo"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Hask'Valgam"
+		portrait="rep16_m"
+		texture=0
+		hair=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	civics={
+		"civic_free_haven"
+		"civic_idealistic_foundation"
+	}
+}
+"The Tree Hive"
+={
+	key="The Tree Hive"
+	ship_prefix="ISS"
+	species={
+		class="FUN"
+		portrait="fun1"
+		name="The Tree"
+		plural="The Tree"
+		adjective="Tree"
+		name_list="PLANT2"
+		trait="trait_hive_mind"
+		trait="trait_agrarian"
+		trait="trait_nonadaptive"
+		trait="trait_quick_learners"
+		trait="trait_natural_sociologists"
+	}
+	name="The Tree Hive"
+	adjective="The Trean"
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
+	planet_name="Thembolia"
+	planet_class="pc_tropical"
+	system_name="Thembor"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_5.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripes.dds"
+		}
+		colors={
+			"dark_green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Bronze Weed"
+		portrait="fun1"
+		texture=0
+		hair=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_one_mind"
+		"civic_hive_subsumed_will"
+	}
+}
+"The Serene Cat Empire"
+={
+	key="The Serene Cat Empire"
+	ship_prefix="ISS"
+	species={
+		class="MAM"
+		portrait="mam14"
+		name="Gilbertan"
+		plural="Gilbertans"
+		adjective="Gilbertan"
+		name_list="HUMAN3"
+		trait="trait_decadent"
+		trait="trait_slow_breeders"
+		trait="trait_communal"
+		trait="trait_intelligent"
+		trait="trait_traditional"
+	}
+	name="The Serene Cat Empire"
+	adjective="Cat"
+	authority="auth_imperial"
+	government="gov_bandit_kingdom"
+	advisor_voice_type="l_authoritarian"
+	planet_name="Kenjor Prime"
+	planet_class="pc_savannah"
+	system_name="Kenjor"
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_14.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Gilbert"
+		portrait="mam14"
+		texture=0
+		hair=0
+		clothes=4
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_militarist"
+	civics={
+		"civic_barbaric_despoilers"
+		"civic_slaver_guilds"
+	}
+}
+"Hand of Armok"
+={
+	key="Hand of Armok"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="humanoid_hp_11"
+		name="Space Dwarf"
+		plural="Space Dwarves"
+		adjective="Dwarven"
+		name_list="PLANT3"
+		trait="trait_industrious"
+		trait="trait_thrifty"
+		trait="trait_nonadaptive"
+		trait="trait_quarrelsome"
+		trait="trait_enduring"
+	}
+	name="Hand of Armok"
+	adjective="Armokian"
+	authority="auth_imperial"
+	government="gov_theocratic_monarchy"
+	planet_name="Fortress"
+	planet_class="pc_arid"
+	system_name="Mountainhome"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_17.dds"
+		}
+		background={
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors={
+			"burgundy"
+			"light_orange"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Jasmine Linnaeus"
+		portrait="humanoid_hp_11"
+		texture=0
+		hair=2
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_decadent_hierarchy_room"
+	spawn_enabled=always
+	ethic="ethic_militarist"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_mining_guilds"
+		"civic_cutthroat_politics"
+	}
+}
+"Robot Fanboys"
+={
+	key="Robot Fanboys"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="humanoid_hp_06"
+		name="Creator"
+		plural="Creators"
+		adjective="Creator"
+		name_list="HUMAN2"
+		trait="trait_natural_engineers"
+		trait="trait_intelligent"
+		trait="trait_slow_breeders"
+		trait="trait_weak"
+		trait="trait_quick_learners"
+	}
+	name="Robot Fanboys"
+	adjective="Fanboy"
+	authority="auth_oligarchic"
+	government="gov_executive_committee"
+	planet_name="Koros"
+	planet_class="pc_alpine"
+	system_name="Korinth"
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_13.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"dark_green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Anja Neumann"
+		portrait="humanoid_hp_06_female"
+		texture=0
+		hair=0
+		clothes=4
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_mechanists"
+		"civic_meritocracy"
+	}
+}
+"Galactic Cuddler Commonality"
+={
+	key="Galactic Cuddler Commonality"
+	ship_prefix="ISS"
+	species={
+		class="MOL"
+		portrait="mol17"
+		name="Cuddler"
+		plural="Cuddlers"
+		adjective="Cuddler"
+		name_list="HUM1"
+		trait="trait_communal"
+		trait="trait_conformists"
+		trait="trait_sedentary"
+	}
+	name="Galactic Cuddler Commonality"
+	adjective="Cuddleran"
+	authority="auth_democratic"
+	government="gov_representative_democracy"
+	planet_name="Karab"
+	planet_class="pc_ocean"
+	system_name="Karabon"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_6.dds"
+		}
+		background={
+			category="backgrounds"
+			file="sinus.dds"
+		}
+		colors={
+			"red_orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Hannakona"
+		portrait="mol17"
+		texture=0
+		hair=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_egalitarian"
+	ethic="ethic_xenophile"
+	civics={
+		"civic_free_haven"
+		"civic_parliamentary_system"
+	}
+}
+"Risen Covenant"
+={
+	key="Risen Covenant"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="humanoid_04"
+		name="Risen"
+		plural="Risen"
+		adjective="Risen"
+		name_list="MAM3"
+		trait="trait_traditional"
+		trait="trait_natural_sociologists"
+		trait="trait_weak"
+		trait="trait_enduring"
+	}
+	secondary_species={
+		class="FUN"
+		portrait="fun2"
+		name="Shroom"
+		plural="Shrooms"
+		adjective="Shroom"
+		name_list="ART1"
+		trait="trait_syncretic_proles"
+		trait="trait_strong"
+		trait="trait_industrious"
+		trait="trait_nonadaptive"
+	}
+	name="Risen Covenant"
+	adjective="Risen"
+	authority="auth_democratic"
+	government="gov_theocratic_republic"
+	planet_name="Sildoria"
+	planet_class="pc_alpine"
+	system_name="Sila"
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_15.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal_stripe.dds"
+		}
+		colors={
+			"dark_brown"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Guldorn dol'Fulm"
+		portrait="humanoid_04_female_01"
+		texture=0
+		hair=0
+		clothes=4
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_beacon_of_liberty"
+		"civic_syncretic_evolution"
+	}
+}
+"Sentient Waffle Irons"
+={
+	key="Sentient Waffle Irons"
+	ship_prefix="ISS"
+	species={
+		class="MACHINE"
+		portrait="sd_fun_robot"
+		name="Waffle Iron"
+		plural="Waffle Irons"
+		adjective="Waffle Iron"
+		species_bio="In an effort to create the perfect waffle, Belgians accidentally created a sentient Waffle Iron with an AI designed to do nothing but feed delicious, fluffy pastries to organics."
+		name_list="HUM1"
+		trait="trait_machine_unit"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_luxurious"
+		trait="trait_robot_efficient_processors"
+		trait="trait_robot_repurposed_hardware"
+	}
+	secondary_species={
+		class="HUM"
+		portrait="human"
+		name="Belgian"
+		plural="Belgians"
+		adjective="Belgian"
+		name_list="HUMAN1"
+		trait="trait_conservational"
+		trait="trait_adaptive"
+		trait="trait_slow_learners"
+		trait="trait_fleeting"
+		trait="trait_communal"
+	}
+	name="Sentient Waffle Irons"
+	adjective="Waffle Iron"
+	authority="auth_machine_intelligence"
+	government="gov_machine_servitor"
+	planet_name="Brussels"
+	planet_class="pc_continental"
+	system_name="Belgium"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_20.dds"
+		}
+		background={
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors={
+			"dark_blue"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Tirrana"
+		portrait="sd_fun_robot"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Prime Iron"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_servitor"
+		"civic_machine_replication"
+	}
+}
+"The Oners"
+={
+	key="The Oners"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="humanoid_hp_13"
+		name="One"
+		plural="Oners"
+		adjective="Onerian"
+		name_list="HUM1"
+		trait="trait_nonadaptive"
+		trait="trait_sedentary"
+		trait="trait_intelligent"
+		trait="trait_enduring"
+		trait="trait_industrious"
+	}
+	name="The Oners"
+	adjective="Onerian"
+	authority="auth_imperial"
+	government="gov_theocratic_monarchy"
+	planet_name="The One"
+	planet_class="pc_continental"
+	system_name="The Sun"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_4.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"dark_blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Mikaba"
+		portrait="humanoid_hp_13"
+		texture=0
+		hair=0
+		clothes=4
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_life_seeded"
+		"civic_environmentalist"
+	}
+}
+"The Lonely Ones"
+={
+	key="The Lonely Ones"
+	ship_prefix="RAD"
+	species={
+		class="PLANT"
+		portrait="pla9"
+		name="Radish Head"
+		plural="Radish Heads"
+		adjective="Radishians"
+		species_bio="Please send me friends."
+		name_list="PLANT3"
+		trait="trait_natural_engineers"
+		trait="trait_intelligent"
+		trait="trait_charismatic"
+		trait="trait_nonadaptive"
+		trait="trait_sedentary"
+	}
+	name="The Lonely Ones"
+	adjective="Lonely One"
+	authority="auth_oligarchic"
+	government="gov_executive_committee"
+	planet_name="Us"
+	planet_class="pc_continental"
+	system_name="We"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="plantoid_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_10.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"light_orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Basil Bloom"
+		portrait="pla9"
+		texture=0
+		hair=0
+		clothes=4
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_free_haven"
+		"civic_life_seeded"
+	}
+}
+"Everyone Sucks"
+={
+	key="Everyone Sucks"
+	ship_prefix="ISS"
+	species={
+		class="FUN"
+		portrait="fun14"
+		name="The Worst"
+		plural="The Worsts"
+		adjective="truly, truly terrible"
+		name_list="FUN4"
+		trait="trait_solitary"
+		trait="trait_repugnant"
+		trait="trait_conformists"
+		trait="trait_quick_learners"
+		trait="trait_talented"
+	}
+	name="Everyone Sucks"
+	adjective="truly, truly terrible"
+	authority="auth_dictatorial"
+	government="gov_technocratic_dictatorship"
+	planet_name="The Worst"
+	planet_class="pc_desert"
+	system_name="Horrible"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_18.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"dark_green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Blarp"
+		portrait="fun14"
+		texture=0
+		hair=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_militarist"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_technocracy"
+		"civic_mechanists"
+	}
+}
+"Mom's Friendly Robot Company"
+={
+	key="Mom's Friendly Robot Company"
+	ship_prefix="MOM"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Earthican"
+		plural="Earthicans"
+		adjective="Earthican"
+		name_list="HUMAN1"
+		trait="trait_natural_engineers"
+		trait="trait_weak"
+		trait="trait_enduring"
+		trait="trait_traditional"
+	}
+	name="Mom's Friendly Robot Company"
+	adjective="MomCorp"
+	authority="auth_corporate"
+	government="gov_megacorporation"
+	advisor_voice_type="l_evil_corp"
+	planet_name="New New Earth"
+	planet_class="pc_continental"
+	system_name="New New Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_11.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"red_orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Carol Miller"
+		portrait="human_female_04"
+		texture=0
+		hair=4
+		clothes=2
+		ruler_title="Not Mom"
+		ruler_title_female="Mom"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_pacifist"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_private_prospectors"
+		"civic_ruthless_competition"
+	}
+}
+"The Church of the One True Gilbert"
+={
+	key="The Church of the One True Gilbert"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="humanoid_05"
+		name="Servant of Gilbert"
+		plural="Servants of Gilbert"
+		adjective="Gilbertan"
+		name_list="HUM4"
+		trait="trait_conformists"
+		trait="trait_sedentary"
+		trait="trait_weak"
+		trait="trait_communal"
+		trait="trait_natural_sociologists"
+	}
+	name="The Church of the One True Gilbert"
+	adjective="Gilbertan"
+	authority="auth_corporate"
+	government="gov_subversive_cult"
+	advisor_voice_type="l_spiritualist"
+	planet_name="Warm Lap"
+	planet_class="pc_savannah"
+	system_name="Gilbert's Eye"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_19.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"black"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Essentia"
+		portrait="humanoid_05_female_01"
+		texture=0
+		hair=0
+		clothes=4
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_gospel_of_the_masses"
+		"civic_criminal_heritage"
+	}
+}
+"Field of Brussels Sprout"
+={
+	key="Field of Brussels Sprout"
+	ship_prefix="BS"
+	species={
+		class="PLANT"
+		portrait="pla3"
+		name="Brussels Sprout"
+		plural="Brussels Sprouts"
+		adjective="Brussels Sprout"
+		name_list="PLANT2"
+		trait="trait_hive_mind"
+		trait="trait_agrarian"
+		trait="trait_rapid_breeders"
+		trait="trait_slow_learners"
+		trait="trait_fleeting"
+	}
+	name="Field of Brussels Sprout"
+	adjective="Brussels Sprout"
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
+	planet_name="Brussels"
+	planet_class="pc_tropical"
+	system_name="France"
+	initializer=""
+	graphical_culture="plantoid_01"
+	city_graphical_culture="plantoid_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_21.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"dark_green"
+			"dark_green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Green Pod"
+		portrait="pla3"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_one_mind"
+		"civic_hive_divided_attention"
+	}
+}
+"Holy Romaine Empire"
+={
+	key="Holy Romaine Empire"
+	ship_prefix="HRE"
+	species={
+		class="PLANT"
+		portrait="pla8"
+		name="Romaine"
+		plural="Romaines"
+		adjective="Romaine"
+		name_list="PLANT3"
+		trait="trait_rapid_breeders"
+		trait="trait_adaptive"
+		trait="trait_slow_learners"
+		trait="trait_sedentary"
+	}
+	name="Holy Romaine Empire"
+	adjective="HRE"
+	authority="auth_imperial"
+	government="gov_theocratic_monarchy"
+	planet_name="Garden"
+	planet_class="pc_arid"
+	system_name="Lifegiver"
+	initializer="custom_starting_init_05"
+	graphical_culture="plantoid_01"
+	city_graphical_culture="plantoid_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_13.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"black"
+			"dark_green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Saladin"
+		portrait="pla8"
+		texture=0
+		hair=0
+		clothes=4
+		ruler_title="Caesar"
+		heir_title="Crouton"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_byzantine_bureaucracy"
+		"civic_environmentalist"
+	}
+}
+"Pyramid Schemes Inc"
+={
+	key="Pyramid Schemes Inc"
+	ship_prefix="PEI"
+	species={
+		class="REP"
+		portrait="rep5"
+		name="Schemer"
+		plural="Schemers"
+		adjective="Schemer"
+		name_list="AVI1"
+		trait="trait_charismatic"
+		trait="trait_decadent"
+		trait="trait_wasteful"
+		trait="trait_intelligent"
+	}
+	name="Pyramid Schemes Inc"
+	adjective="Pyramidean"
+	authority="auth_corporate"
+	government="gov_criminal_syndicate"
+	planet_name="The Peak"
+	planet_class="pc_arctic"
+	system_name="The Overseer"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_22.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"black"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="B'Kuura"
+		portrait="rep5"
+		texture=0
+		hair=0
+		clothes=4
+		ruler_title="CEO"
+		ruler_title_female="CEO"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_xenophile"
+	civics={
+		"civic_criminal_heritage"
+		"civic_franchising"
+	}
+}
+"Victoria III"
+={
+	key="Victoria III"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Victorian"
+		plural="Victorians"
+		adjective="Victorian"
+		name_list="HUMAN1"
+		trait="trait_slow_breeders"
+		trait="trait_enduring"
+		trait="trait_traditional"
+		trait="trait_thrifty"
+	}
+	name="Victoria III"
+	adjective="Victorian"
+	authority="auth_imperial"
+	government="gov_star_empire"
+	planet_name="Greatest Britain"
+	planet_class="pc_ocean"
+	system_name="The Isles"
+	initializer="custom_starting_init_03"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_8.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"black"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Vick Vick Vick"
+		portrait="human_female_03"
+		texture=0
+		hair=16
+		clothes=0
+		ruler_title="Victor"
+		ruler_title_female="Victoria"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_militarist"
+	civics={
+		"civic_aristocratic_elite"
+		"civic_efficient_bureaucracy"
+	}
+}
+"Zorg Sworm"
+={
+	key="Zorg Sworm"
+	ship_prefix="ISS"
+	species={
+		class="ART"
+		portrait="art17"
+		name="Zorg"
+		plural="Zorg"
+		adjective="Zorg"
+		name_list="HIVE"
+		trait="trait_hive_mind"
+		trait="trait_rapid_breeders"
+		trait="trait_fleeting"
+		trait="trait_strong"
+		trait="trait_adaptive"
+		trait="trait_repugnant"
+	}
+	name="Zorg Sworm"
+	adjective="Zorg Sworm"
+	authority="auth_hive_mind"
+	government="gov_devouring_swarm"
+	planet_name="Zerus"
+	planet_class="pc_tropical"
+	system_name="Zerus"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_16.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"indigo"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="The One"
+		portrait="art17"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Overmind"
+		ruler_title_female="Overmind"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_devouring_swarm"
+		"civic_hive_strength_of_legions"
+	}
+}
+"Wander Worms"
+={
+	key="Wander Worms"
+	ship_prefix="ISS"
+	species={
+		class="ART"
+		portrait="art20"
+		name="Wander Worm"
+		plural="Wander Worms"
+		adjective="Wormian"
+		name_list="FUN4"
+		trait="trait_nomadic"
+		trait="trait_natural_sociologists"
+		trait="trait_adaptive"
+		trait="trait_repugnant"
+	}
+	name="Wander Worms"
+	adjective="Wormians"
+	authority="auth_democratic"
+	government="gov_moral_democracy"
+	planet_name="Greater Qirus"
+	planet_class="pc_arid"
+	system_name="Qirus"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_23.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"purple"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Oomp"
+		portrait="art20"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_xenophile"
+	ethic="ethic_pacifist"
+	civics={
+		"civic_agrarian_idyll"
+		"civic_environmentalist"
+	}
+}
