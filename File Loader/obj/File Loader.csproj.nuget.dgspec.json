@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alberto.diaz\\Development\\Stellaris Parser System\\File Loader\\File Loader.csproj": {}
+    "C:\\Users\\alberto.diaz\\Downloads\\Stellaris-Parser\\File Loader\\File Loader.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alberto.diaz\\Development\\Stellaris Parser System\\File Loader\\File Loader.csproj": {
+    "C:\\Users\\alberto.diaz\\Downloads\\Stellaris-Parser\\File Loader\\File Loader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alberto.diaz\\Development\\Stellaris Parser System\\File Loader\\File Loader.csproj",
+        "projectUniqueName": "C:\\Users\\alberto.diaz\\Downloads\\Stellaris-Parser\\File Loader\\File Loader.csproj",
         "projectName": "File Loader",
-        "projectPath": "C:\\Users\\alberto.diaz\\Development\\Stellaris Parser System\\File Loader\\File Loader.csproj",
+        "projectPath": "C:\\Users\\alberto.diaz\\Downloads\\Stellaris-Parser\\File Loader\\File Loader.csproj",
         "packagesPath": "C:\\Users\\alberto.diaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alberto.diaz\\Development\\Stellaris Parser System\\File Loader\\obj\\",
+        "outputPath": "C:\\Users\\alberto.diaz\\Downloads\\Stellaris-Parser\\File Loader\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\alberto.diaz\\Development\\Stellaris Parser System\\Parser\\Parser.csproj": {
-                "projectPath": "C:\\Users\\alberto.diaz\\Development\\Stellaris Parser System\\Parser\\Parser.csproj"
+              "C:\\Users\\alberto.diaz\\Downloads\\Stellaris-Parser\\Parser\\Parser.csproj": {
+                "projectPath": "C:\\Users\\alberto.diaz\\Downloads\\Stellaris-Parser\\Parser\\Parser.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\alberto.diaz\\Development\\Stellaris Parser System\\Parser\\Parser.csproj": {
+    "C:\\Users\\alberto.diaz\\Downloads\\Stellaris-Parser\\Parser\\Parser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alberto.diaz\\Development\\Stellaris Parser System\\Parser\\Parser.csproj",
+        "projectUniqueName": "C:\\Users\\alberto.diaz\\Downloads\\Stellaris-Parser\\Parser\\Parser.csproj",
         "projectName": "Parser",
-        "projectPath": "C:\\Users\\alberto.diaz\\Development\\Stellaris Parser System\\Parser\\Parser.csproj",
+        "projectPath": "C:\\Users\\alberto.diaz\\Downloads\\Stellaris-Parser\\Parser\\Parser.csproj",
         "packagesPath": "C:\\Users\\alberto.diaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alberto.diaz\\Development\\Stellaris Parser System\\Parser\\obj\\",
+        "outputPath": "C:\\Users\\alberto.diaz\\Downloads\\Stellaris-Parser\\Parser\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -105,6 +105,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

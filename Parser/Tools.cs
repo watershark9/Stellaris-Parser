@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Stellaris
+﻿namespace Stellaris
 {
     public static class Tools
     {
@@ -13,5 +7,7 @@ namespace Stellaris
                 .Replace("\n", "")
                 .Replace("\"", "")
                 .Replace("\t", "");
+
+        public static string ToJSON(object obj) => Newtonsoft.Json.JsonConvert.SerializeObject(obj, Newtonsoft.Json.Formatting.Indented);
     }
 }

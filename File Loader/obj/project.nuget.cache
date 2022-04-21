@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bvdxYiM7xsg2SZQxrCMHsl24JByaY5OpnjKi8YFR01iwEeT3K8DsVbIz42vynjx6npgRrBRymdPaOujD52lSgw==",
+  "dgSpecHash": "w5wsIQziTTzFlpAOUd0gv2i0LGDVixWLnCjChDTwpVfHCEkmqfLldyQt3bAJHqmqW5qvrWRz+4McDLa0WHfLmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alberto.diaz\\Development\\Stellaris Parser System\\File Loader\\File Loader.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\alberto.diaz\\Downloads\\Stellaris-Parser\\File Loader\\File Loader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alberto.diaz\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

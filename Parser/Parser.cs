@@ -1,6 +1,4 @@
-﻿using System.Text.RegularExpressions;
-
-namespace Stellaris
+﻿namespace Stellaris
 {
     public static class Parser
     {
